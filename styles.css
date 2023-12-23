@@ -1,0 +1,52 @@
+﻿body
+
+
+.htlink {
+    font-size: 12;
+    font-style: italic;
+    font-family: Helvetica;
+    color: darkblue;
+}
+.form {
+    font-size: 16pt;
+    font-style: italic;
+    color: darkblue;
+    background-color: lightblue;
+}
+.product-list {
+    font-size: 16pt;
+    font-style: italic;
+    color: darkblue;
+    background-color: lightblue;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.button {
+    padding: 8px 16px;
+    background-color: darkblue;
+    color: lightblue;
+    border: none;
+    cursor: pointer;
+}
+.tab {
+    font-size: 22pt;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    color: cornflowerblue;
+    background-color: lightblue;
+}
+
+.pragraf {
+    font-size: 16pt;
+    font-style: italic;
+    color: darkblue;
+   
+}

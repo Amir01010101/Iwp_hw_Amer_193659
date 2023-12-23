@@ -1,0 +1,227 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Product List</title>
+    <link rel="stylesheet" type="text/css"
+          href="styles.css" />
+    <script type="text/javaScript"
+            src="myScript.js">
+    </script>
+</head>
+<body>
+    <table class="product-list">
+        <tr>
+            <th>المنتج</th>
+            <th>تفاصيل</th>
+            <th>السعر</th>
+            <th>صورة </th>>
+        </tr>
+        <tr>
+            <td>براد سامسونغ بابين</td>
+            <td>
+                <ul>
+                    <li>الحجم 800 لتر</li>
+                    <li>تكنولوجيا spacemax<sup>tm</sup></li>
+                    <li>يدوم طويلاً يتوفير في الطاقة يصل الى %50</li>
+                    <li>محول رقمي</li>
+                    <li>تبريد شامل </li>
+                </ul>
+            </td>
+            <td> ل.س6500000  </td>
+            <td> <img src="a/refrigerator.jpg" class="img" alt="براد" /></td>
+            <td><button class="button" onclick="addToCart('براد سامسونغ بابين', 'الحجم 800 لتر,تكنولوجيا spacemax,يدوم طويلاً يتوفير في الطاقة يصل الى %50,محول رقمي,تبريد شامل', 6500000, 'appliances images\refrigerator.jpg')">Add to Cart</button></td>
+        </tr>
+        <tr>
+            <td>مقلاةهوائية </td>
+            <td>
+                <ul>
+                    <li>سعة كبيرة تبلغ 6.2لتر</li>
+                    <li>تقنية rapid air</li>
+                    <li>وزنها خفيفة الذي يبلغ 1.2 كغ</li>
+                    <li>شاشة رقمية</li>
+                </ul>
+            </td>
+            <td>ل.س 450000</td>
+            <td>
+                <img src="a/airfrier.jpg" class="img" alt="مقلاة هوائية" />
+            <td><button class="button" onclick="addToCart('مقلاةهوائية', 'سعة كبيرة تبلغ 6.2لتر,تقنية rapid air,وزنها خفيفة الذي يبلغ 1.2 كغ,شاشة رقمية,', 450000,  'appliances images/airfrier.jpg')">Add to Cart</button></td>
+        </tr>
+        <tr>
+            <td>غاز </td>
+            <td>
+                <ul>
+                    <li>قياس 60*90سم</li>
+                    <li>شعلة عدد 5</li>
+                    <li>تصميم انيق وجذاب </li>
+                </ul>
+            </td>
+            <td>ل.س 4500000</td>
+            <td>
+                <img src="a/gas.jpg" class="img" alt="غاز" />
+            </td>
+            <td><button class="button" onclick="addToCart('غاز', 'شعلة عدد 5,وقياس 60*90سم,تصميم انيق وجذاب,',4500000,  'appliances images/gas.jpg')">Add to Cart</button></td>
+
+        </tr>
+        <tr>
+            <td>مدفأة كهربائية</td>
+            <td>
+                <ul>
+                    <li>موديل lx-2832</li>
+                    <li>واط 1500</li>
+                    <li>وشائع ع3</li>
+                </ul>
+
+            </td>
+            <td>ل.س 1200000</td>
+            <td>
+                <img src="a/heighter.jpg" class="img" alt="مدفأة كهربائية" />
+            </td>
+            <td><button class="button" onclick="addToCart('مدفأة كهربائية,','واط 1500,model lx-2832,وشائع ع3',1200000,  'appliances images/heighter.jpg')">Add to Cart</button></td>
+        </tr>
+        <tr>
+            <td>مكواة</td>
+            <td>
+                <ul>
+                    <li>2800 واط</li>
+                    <li>قاعدة سيراميك </li>
+                    <li>فوهة رش مزدوجة بسعة 400 مل</li>
+                </ul>
+            </td>
+            <td>1300000 ل.س</td>
+            <td>
+                <img src="a/iron.jpg" class="img" alt="مكواة" />
+            </td>
+            <td><button class="button" onclick="addToCart('مكواة','2800 واط,قاعدة سيراميك,فوهة رش مزدوجة بسعة 400 مل',1300000,  'appliances images/iron.jpg')">Add to Cart</button></td>
+        </tr>
+        <tr>
+            <td>ميكرويف</td>
+            <td>
+                <ul>
+                    <li>يعمل بطاقة 1000 واط</li>
+                    <li>25 لتر</li>
+                    <li>شواية</li>
+
+                </ul>
+            </td>
+            <td>3600000 ل.س</td>
+            <td>
+                <img src="a/microve.jpg" class="img" alt="ميكروويف" />
+            </td>
+            <td><button class="button" onclick="addToCart('ميكرويف',',يعمل بطاقة 1000 واط,25 لتر,شواية',3600000,  'appliances images/microve.jpg')">Add to Cart</button></td>
+
+        </tr>
+        <tr>
+            <td>خلاط</td>
+            <td>
+                <ul>
+                    <li>حجم21.6*30.4*37.2 سم</li>
+                    <li>سعة 2 لتر</li>
+                    <li>قوة المحرك800واط</li>
+                </ul>
+            </td>
+            <td>800000 ل.س</td>
+            <td>
+                <img src="a/mixer.jpg" class="img" alt="خلاط" />
+            </td>
+            <td><button class="button" onclick="addToCart('خلاط','حجم21.6*30.4*37.2 سم,سعة 2 لتر,قوة المحرك800واط',800000,  'appliances images/mixer.jpg')">Add to Cart</button></td>
+
+        </tr>
+        <tr>
+            <td>غسالة</td>
+            <td>
+                <ul>
+                    <li>غسالة اوتوماتيك</li>
+                    <li>4.2 كغ</li>
+                    <li>حجم 5كجم</li>
+                </ul>
+            </td>
+            <td>5700000 ل.س</td>
+            <td>
+                <img src="a/washmachine.jpg" class="img" alt="غسالة" />
+            </td>
+            <td><button class="button" onclick="addToCart('غسالة','غسالة اوتوماتيك,4.2 كغ,حجم 5كجم',5700000,  'appliances images/washmachine.jpg')">Add to Cart</button></td>
+
+        </tr>
+        <tr>
+            <td>كولر</td>
+            <td>
+                <ul>
+                    <li>خزان مياه من الستانلس ستيل</li>
+                    <li>انابيب مخرج المياه من السيليكون</li>
+                    <li>قدرة تبريد 22لتر/الساعة</li>
+
+                </ul>
+            </td>
+            <td>2400000 ل.س</td>
+            <td>
+                <img src="a/water cooler.jpg" class="img" alt="كولر" />
+            </td>
+            <td><button class="button" onclick="addToCart('كولر','خزان مياه من الستانلس ستيل,انابيب مخرج المياه من السيليكون,قدرة تبريد 22لتر/الساعة',4200000,  'appliances images/water cooler.jpg')">Add to Cart</button></td>
+
+        </tr>
+        <tr>
+            <td>ابريق تسخين كهربائي</td>
+            <td>
+                <ul>
+                    <li>1850 واط</li>
+                    <li>1.7 لتر</li>
+                    <li>مؤشر اوتوماتيكي</li>
+                </ul>
+            </td>
+            <td>600000 ل.س</td>
+            <td>
+                <img src="a/waterheater kettle.jpg" class="img" alt="ابريق تسخين كهربائي" />
+
+            </td>
+            <td><button class="button" onclick="addToCart('ابريق تسخين كهربائي','1850 واط,1.7 لتر,مؤشر اوتوماتيكي',600000,  'appliances images/waterheater kettle.jpg')">Add to Cart</button></td>
+
+        </tr>
+        <!-- Add more rows for additional products -->
+    </table>
+
+    <h2>Shopping Cart</h2>
+    <table id="shopping-cart">
+        <!-- Shopping cart table -->
+        <tr>
+            <th>ID</th>
+            <th>Product</th>
+            <th>Details</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total Price</th>
+        </tr>
+    </table>
+
+    <!-- Added Cancel and Proceed buttons -->
+    <button onclick="cancelCart()">Cancel</button>
+    <button onclick="showPurchaseForm()">Proceed</button>
+
+    <!-- Purchase form (hidden by default) -->
+    <div id="purchase-form" style="display: none;">
+        <h2>Confirm Purchase</h2>
+        <form class="form">
+            <label for="full-name">Full Name (Only in Arabic):</label>
+            <input type="text" id="full-name" required><br>
+
+            <label for="national-number">National Number (11 digits):</label>
+            <input type="text" id="national-number" pattern="[0-9]{11}" required><br>
+
+            <label for="date-of-birth">Date of Birth (dd-mm-yyyy):</label>
+            <input type="text" id="date-of-birth" pattern="\d{2}-\d{2}-\d{4}" required><br>
+
+            <label for="phone-number">Phone Number (10 digits only):</label>
+            <input type="text" id="phone-number" pattern="[0-9]{10}" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required><br>
+
+            <button class="button" type="submit">Confirm Purchase</button>
+        </form>
+    </div>
+    <br />
+    <a class="htlink" href="home.html">Go to home ..</a>
+    <br /><a class="htlink" href="about.html">Go to AboutUs..</a>
+
+   
+</body>
+</html>
